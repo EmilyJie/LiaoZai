@@ -14,14 +14,6 @@ body {
     height: 100%;
 }
 
-.container {
-    position: absolute;
-    max-width: 1440px;
-    left: 0px;
-    top: 0px;
-    background-color: #93a7ad;
-}
-
 header {
     position: absolute;
     width: 1440px;

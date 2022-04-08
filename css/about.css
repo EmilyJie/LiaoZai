@@ -1,0 +1,27 @@
+html {
+    width: 1440px;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    width: 1440px;
+    height: 100%;
+    background: url('../img/bg.png');
+    background-size: 110%;    
+}
+
+header {
+    position: absolute;
+    width: 1440px;
+    margin: 0px;
+}
+
+.header-menu {
+    list-style: none;
+}
+
