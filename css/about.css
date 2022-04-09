@@ -1,27 +1,41 @@
-html {
-    width: 1440px;
-}
-
-*,
-*:before,
-*:after {
-    box-sizing: inherit;
-}
-
 body {
-    width: 1440px;
     height: 100%;
     background: url('../img/bg.png');
     background-size: 110%;    
 }
-
-header {
-    position: absolute;
-    width: 1440px;
-    margin: 0px;
+.title-rect{
+    width: 200px;
+    height: 10px;
+    background: #93A7AD;
 }
-
-.header-menu {
-    list-style: none;
+.rect{
+    width: 5px;
+    height: 50px;
+    background: #93A7AD;
 }
+.verticaltext{
+    -webkit-writing-mode: vertical-lr;
+    writing-mode: vertical-lr;
+    font-size: 20px;
+    color: #93A7AD;
+ }
+ .playTarot{
+    height: 165px;
+    background: #93A7AD;
+    margin-top: 150px;
+    color: #fff;
+    font-size: 24px;
+ }
+ .playTarot-text{
+     color: #93A7AD;
+     font-size: 24px;
+ }
+ .Tarot-img img{
+     width: 210px;
+ }
 
+ footer{
+     background: #93A7AD;
+     color: #fff;
+     font-size: 20px;
+ }
