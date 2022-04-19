@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexfangsong.css);
 body{
     height: 100%;
     background: url('../img/bg.png');
@@ -20,7 +21,7 @@ body{
     height: 160px;
 }
 .title{
-    font-family: 'Noto Serif TC', serif;
+    font-family: 'cwTeXFangSong', serif;
     font-weight: bold;
 }
 .title-rect{
@@ -36,9 +37,9 @@ body{
     border-radius: 2px;
 }
 .about-text{
-    font-family: 'Noto Serif TC', serif;
+    font-family: 'cwTeXFangSong', serif;
     font-weight: normal;
-    font-size: large;
+    font-size: 20px;
 }
 .verticaltext{
     -webkit-writing-mode: vertical-lr;
