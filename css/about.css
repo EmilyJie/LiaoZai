@@ -2,10 +2,13 @@ body{
     height: 100%;
     background: url('../img/bg.png');
     background-size: 110%;
+    background-attachment: fixed;
     scroll-snap-type: y proximity;
     overflow-y: scroll;
 }
-
+.panel1{
+    height: 100vh;
+}
 .nav-text a.active{
     border-bottom: 4px solid #93A7AD;
     border-radius: 3px;
@@ -45,6 +48,9 @@ body{
     writing-mode: vertical-lr;
     font-size: 20px;
     color: #93A7AD;
+ }
+ .panel2{
+     background-color: #fff;
  }
  .playTarot{
     height: 165px;
