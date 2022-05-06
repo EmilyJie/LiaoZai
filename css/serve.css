@@ -1,0 +1,101 @@
+*,*::after,*::before {
+    box-sizing: inherit;
+}
+
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexfangsong.css);
+
+body{
+    height: 100%;
+    background: url('../img/bg.png');
+    background-size: 110%;
+    background-attachment: fixed;
+    scroll-snap-type: y proximity;
+    overflow-y: scroll;
+}
+.nav-text a.active{
+    border-bottom: 4px solid #93A7AD;
+    border-radius: 3px;
+}
+.nav-text a:hover{
+    border-bottom: 4px solid #93A7AD;
+    border-radius: 3px;
+    
+}
+.img-logo{
+    width: 160px;
+    height: 160px;
+}
+
+.container-1 {
+    margin: 0 0;
+}
+
+.nail-pic img{
+    height: 100vh;
+}
+
+.nail-text {
+    height: 100vh;
+}
+
+.nail-text h1 {
+    font-weight: bold;
+    color: #93A7AD;
+}
+
+.nail-text p {
+    font-size: 20px;
+    font-family: 'cwTeXFangSong', serif;
+}
+
+.container-2 {
+    padding-top: 200px;
+    margin: 0 0;
+}
+
+.hand-pic img{
+    height: 50vh;
+}
+
+.hand-text {
+    height: 50vh;
+}
+
+.hand-text h1 {
+    font-weight: bold;
+    color: #93A7AD;
+}
+
+.hand-text p {
+    font-size: 20px;
+    font-family: 'cwTeXFangSong', serif;
+}
+
+.container-3 {
+    padding-top: 200px;
+    margin: 0 0;
+}
+
+.ear-pic img{
+    height: 50vh;
+}
+
+.ear-text {
+    height: 50vh;
+}
+
+.ear-text h1 {
+    font-weight: bold;
+    color: #93A7AD;
+}
+
+.ear-text p {
+    font-size: 20px;
+    font-family: 'cwTeXFangSong', serif;
+}
+
+ footer{
+     background: #93A7AD;
+     color: #fff;
+     font-size: 20px;
+ }
