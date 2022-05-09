@@ -9,6 +9,7 @@ body{
     background-attachment: fixed;
     scroll-snap-type: y proximity;
     overflow-y: scroll;
+    transition: 0.5s;
 }
 
 .nav-text a.active{
@@ -50,8 +51,11 @@ span {
 .store-title {
     position: relative;
     left: 500px;
-    bottom: 130px;
-    
+    bottom: 130px
+}
+
+.fade-in {
+    opacity: 1;
 }
 
 .container-3{
