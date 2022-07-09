@@ -8,7 +8,7 @@ body{
     background-attachment: fixed;
     scroll-snap-type: y proximity;
     overflow-y: scroll;
-    font-family: 'cwTeXFangSong', serif;
+    font-family: 'Noto Serif TC', serif;
 }
 
 .nav-text a.active{
@@ -19,6 +19,7 @@ body{
 .nav-text a:hover{
     border-bottom: 4px solid #93A7AD;
     border-radius: 3px;
+    
 }
 
 .img-logo{
@@ -26,43 +27,16 @@ body{
     height: 160px;
 }
 
-.container-1 {
-    margin: 15vh 0 30vh 0;
+.img_about{
+    width: 100%;
+    border-radius: 15px;
 }
 
-.nail-pic img{
-    height: 80vh;
-}
-
-.nail-text {
-    height: 80vh;
-}
-
-h1 {
-    font-weight: 700 !important;
-    font-family: "cwTeXFangSong", serif;
-    color: #93A7AD;
-}
-
-p {
-    font-size: 22px;
-    font-family: "cwTeXFangSong", serif;
-}
-
-.container-2 {
-    margin: 30vh 0;
-}
-
-.pic img{
-    height: 50vh;
-}
-
-.hand-text {
-    height: 50vh;
-}
-
-.ear-text {
-    height: 50vh;
+.title-rect{
+    width: 150px;
+    height: 8px;
+    background: #93A7AD;
+    border-radius: 2px;
 }
 
 footer{

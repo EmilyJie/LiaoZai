@@ -1,7 +1,6 @@
-*,*::after,::before {
-    box-sizing: inherit;
-}
+
 @import url(https://fonts.googleapis.com/earlyaccess/cwtexfangsong.css);
+
 body{
     height: 100%;
     background: url('../img/bg-home.png');
@@ -9,7 +8,8 @@ body{
     background-attachment: fixed;
     scroll-snap-type: y proximity;
     overflow-y: scroll;
-    transition: 0.5s;
+    transition: 0.5s !important;
+    font-family: 'cwTeXFangSong', serif;
 }
 
 .nav-text a.active{
@@ -79,6 +79,7 @@ span {
 
 .serve-title h1 {
     font-weight: bold;
+    font-family: "cwTeXFangSong", serif;
     color: #93A7AD;
     
 }
@@ -91,11 +92,17 @@ span {
 
 .card-text {
     font-weight: bold;
+    font-family: "cwTeXFangSong", serif;
     color: #93A7AD;
 }
 
 footer{
     background: #93A7AD;
     color: #fff;
-    font-size: 20px;
+    font-size: 22px;
+    font-family: 'cwTeXFangSong', serif;
+}
+
+.footerHover:hover{
+    transform: scale(0.9) !important;
 }
